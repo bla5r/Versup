@@ -10,21 +10,21 @@ In the following guide, I will assume that you're on a Debian-based operating sy
 
 To do so, just run this command:
 ```
-	apt update && apt install python python-pip git
+apt update && apt install python python-pip git
 ```
 
 # Installation
 
 To install the dependencies, you have to run this command:
 ```
-        pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 # Usage
 
 You have to run this command in order to launch the bot:
 ```
-        python versup.py
+python versup.py
 ```
 If you haven't any error in the output log, your bot is able to receive new commands via Telegram.
 

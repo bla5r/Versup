@@ -22,7 +22,24 @@ pip install -r requirements.txt
 
 # Usage
 
-You have to run this command in order to launch the bot:
+## Getting started
+
+Initially, you have to get a bot token. You can obtain one by talking with @BotFather (more information [here](https://core.telegram.org/bots#6-botfather)).
+Then, you must have a Google account in order to access Google Play. I highly advise you to create a dedicated one with a random password that you won't use anywhere.
+
+Now, with this information, you're able to properly fill the file "config.json", which is located in the root of the project.  
+
+This file must contains the following values:
+  + emailAddress
+    > Your Google email address
+  + password
+    > Your Google password
+  + botToken
+    > Your Telegram bot token
+  + refreshRate
+    > Number of minute(s) between each version checking (default: 30). Note that you will probably be banned from Google services if you set a low value.
+
+Finally, you have to run this command in order to launch the bot:
 ```
 python versup.py
 ```

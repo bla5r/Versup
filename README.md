@@ -57,7 +57,7 @@ Thanks to these available commands, you will be able to communicate with your Ve
     > Get the current version of a given app. This command must be followed by an app ID.
   + /follow [appId]
     > Follow a specified app. This command must be followed by an app ID.
-  + /unfollow
+  + /unfollow [appId]
     > Unfollow an app. This command must be followed by an app ID.
 
 ## How to find an app ID?
